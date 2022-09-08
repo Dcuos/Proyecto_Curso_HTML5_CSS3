@@ -96,6 +96,12 @@ footer {
 
 /*Este es el inicio de la configuración de la pagina contacto*/
 
+/* Debemos modificar este parametro en la pagina contacto para no perder la configuracion
+main {
+  width: 940px;
+  margin: 0 auto;
+}
+*/
 form {
   margin: 40px 0;
 }
@@ -233,6 +239,12 @@ th {
 
 .imagen-diferenciales {
   width: 60%;
+  transition: 400ms;
+  box-shadow: 10px 10px 30px 10px black;
+}
+
+.imagen-diferenciales:hover {
+  opacity: 30%;
 }
 
 .video {
